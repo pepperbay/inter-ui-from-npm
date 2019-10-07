@@ -1,0 +1,24 @@
+{
+  "name": "inter-ui-from-npm",
+  "version": "3.10.0",
+  "description": "Font files for the Inter font family. Forked from Philip Belesky NPM package.",
+  "main": "inter.css",
+  "keywords": ["inter", "inter-ui", "typeface", "font", "font family"],
+  "authors": [
+    { "name": "Rasmus ANDERSSON", "homepage": "https://rsms.me" },
+    {
+      "name": "Philip BELESKY",
+      "homepage": "https://philipbelesky.com/"
+    },
+    {
+      "name": "Sylvain DENYSE",
+      "homepage": "https://sylvaindenyse.me/"
+    }
+  ],
+  "license": "OFL-1.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pepperbay/inter-ui-from-npm.git"
+  },
+  "private": false
+}
