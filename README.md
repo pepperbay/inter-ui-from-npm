@@ -1,3 +1,5 @@
+Just a fork from Philip Belesky NPM package to use it with bower.
+
 # Typeface-Inter
 
 The CSS and web font files to easily self-host the [Inter font family](https://rsms.me/inter/) created by [Rasmus Andersson](https://rsms.me).
