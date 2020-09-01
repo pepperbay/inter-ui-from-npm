@@ -21,11 +21,11 @@ Add the following to your SCSS
 ```scss
 @use "~inter-ui/default" with (
   $inter-font-display: swap,
-  $inter-font-path: '~inter-ui/Inter (web)'
+  $inter-font-path: '~inter-ui/inter-web'
 );
 @use "~inter-ui/variable" with (
   $inter-font-display: swap,
-  $inter-font-path: '~inter-ui/Inter (web)'
+  $inter-font-path: '~inter-ui/inter-web'
 );
 @include default.all;
 @include variable.all;
@@ -44,7 +44,7 @@ To avoid having to import all "font faces". You can also use only some of them v
 If you only want 400 and 700 you can specify exactly this.
 ```scss
 @use "~inter-ui/default" as inter-ui with (
-	$inter-font-path: "~inter-ui/Inter (web latin)"
+	$inter-font-path: "~inter-ui/inter-web-latin"
 );
 @include inter-ui.weight-400;
 @include inter-ui.weight-700;
@@ -55,7 +55,7 @@ Note that this `@use` syntax is [not currently supported in the node-sass or rub
 ## Versions
 
 There are several versions you can choose from.
-To use them with the modules, just change the `$inter-font-path` to e.g. `Inter (web hinted)`
+To use them with the modules, just change the `$inter-font-path` to e.g. `inter-web-hinted`
 
 ### Hinted vs Unhinted
 
@@ -77,7 +77,7 @@ hints. This might be a consideration when using web fonts.
 ### Latin
 
 If you only need support for the latin characters. Then you can use this version.
-The normal `Inter (web)` version average filesize is between 150kb and 100kb,
+The normal `inter-web` version average filesize is between 150kb and 100kb,
 the reduced latin version is on average 30kb per font.
 
 This was generated using [glyphhanger](https://github.com/filamentgroup/glyphhanger). See `package.json` for the build script.
